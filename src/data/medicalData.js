@@ -1,0 +1,50 @@
+export const patients = [
+    {
+      id: "PAT001",
+      name: "Kader Diarra",
+      age: 42,
+      gender: "Masculin",
+      phone: "+226 70 12 34 56",
+      address: "Secteur 15, Ouagadougou",
+      lastVisit: "12/06/2023",
+      lastDoctor: "Dr. Aminata Ouédraogo",
+      diagnosis: "Paludisme",
+      reason: "Fièvre persistante",
+      treatment: "Comprimés Coartem, 1x2 par jour pendant 3 jours",
+      allergies: "Pénicilline",
+      chronicDiseases: "Hypertension",
+      emergency: false
+    },
+    {
+      id: "PAT002",
+      name: "Amina Ouédraogo",
+      age: 28,
+      gender: "Féminin",
+      phone: "+226 65 43 21 09",
+      address: "Bobo-Dioulasso",
+      lastVisit: "15/06/2023",
+      lastDoctor: "Dr. Jean Zongo",
+      diagnosis: "Infection respiratoire",
+      reason: "Toux et difficultés respiratoires",
+      treatment: "Amoxicilline 500mg, 3x par jour pendant 7 jours",
+      allergies: "Aucune",
+      chronicDiseases: "Asthme",
+      emergency: true
+    },
+    {
+      id: "PAT003",
+      name: "Jean Zongo",
+      age: 35,
+      gender: "Masculin",
+      phone: "+226 78 90 12 34",
+      address: "Koudougou",
+      lastVisit: "18/06/2023",
+      lastDoctor: "Dr. Fatimata Sawadogo",
+      diagnosis: "Diabète de type 2",
+      reason: "Contrôle glycémique",
+      treatment: "Metformine 850mg, 1x par jour",
+      allergies: "Aucune",
+      chronicDiseases: "Diabète",
+      emergency: false
+    }
+  ];
